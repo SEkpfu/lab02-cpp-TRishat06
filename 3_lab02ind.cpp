@@ -12,7 +12,7 @@ int main(){
     else if(x >= -2.0 && x <=0.0 && r <= 4.0 && y <= 0.0) {
         cout<<"prinadlezhit";
     }
-    else if(x >=-4.0 && x <=4.0 && y <= x - 4.0) {
+    else if(x >=-4.0 && x <=4.0 && y >= x - 4.0) {
         cout<<"prinadlezhit";
     }
     else{
@@ -20,3 +20,4 @@ int main(){
     }
 return 0;
 }
+
