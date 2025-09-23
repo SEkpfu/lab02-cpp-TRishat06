@@ -6,17 +6,17 @@ int main(){
     r=sqrt(x * x + y * y);
     cout<<"(x,y):";
     cin>>x>>y;
-    if(x >= -4 && x <= -2 && r <= 4) {
+    if(x >= -4.0 && x <= -2.0 && r <= 4.0) {
         cout<<"prinadlezhit";
     }
-    else if(x >= -2 && x <=0 && r <= 4 && y <= -4) {
+    else if(x >= -2.0 && x <=0.0 && r <= 4.0 && y <= 0.0) {
         cout<<"prinadlezhit";
     }
-    else if(x >=-4 && x <=4 && y <= x - 4) {
+    else if(x >=-4.0 && x <=4.0 && y <= x - 4.0) {
         cout<<"prinadlezhit";
     }
     else{
         cout<<"net";
     }
-    return 0;
+return 0;
 }
